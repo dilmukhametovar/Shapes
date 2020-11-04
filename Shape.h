@@ -9,8 +9,8 @@ public:
 
 	double getX() { return x; }
 	double getY() { return y; }
-	double setX(double x) { this->x = x; }
-	double setY(double y) { this->y = y; }
+	void setX(double x) { this->x = x; }
+	void setY(double y) { this->y = y; }
 
 	virtual void draw() = 0;
 };
