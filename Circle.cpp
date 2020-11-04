@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Circle.h"
 
-virtual void Circle::draw() override {
+void Circle::draw() {
 	std::cout << "Drawing circle" << std::endl;
 }

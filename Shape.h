@@ -3,6 +3,6 @@ class Shape {
 public:
 	Shape() : x(0), y(0) {}
 	Shape(double x, double y) : x(x), y(y) {}
-	~Shape() {}
+	virtual ~Shape() {}
 	virtual void draw() = 0;
-;}
+};
