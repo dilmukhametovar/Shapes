@@ -7,4 +7,4 @@ void Circle::draw() {
                   << ", y = " << this->getY()
                   << ", radius = " << this->radius
                   << std::endl;
-
+}
